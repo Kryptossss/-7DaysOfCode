@@ -1,0 +1,286 @@
+:root {
+    --color-text: #3A404E;
+    --color-title: #8E2424;
+    --color-title2: #101828;
+    --color-text2: #667085;
+}
+
+body {
+    font-family: "Inter";
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.cabecalho-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #667085;
+}
+
+
+.cabecalho-icon {
+    width: 27px;
+    height: 26.99px;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+    color:#3A404E;
+}
+
+.cabecalho-menu {
+    display: flex;
+    margin: 0 15em 1em;
+}
+
+.itens-menu {
+    margin: 0 1em;
+}
+
+.cabecalho-lista-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-left: -15em;
+}
+
+.cabecalho-link {
+    text-decoration: none;
+    color:#667085;
+}
+
+.itens-login {
+    margin: 0 1em;
+}
+
+.lista-login-cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.link-itens-menu-entrar {
+    color: #667085;
+}
+
+.link-itens-menu-cadastrar {
+    color: #ffffff;
+    background-color: #8E2424;
+    box-sizing: border-box;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+.sobre-nos {
+    text-align: center;
+    margin: 3em;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.subtitulo-sobrenos {
+    color: #8E2424;
+    margin: 1.5em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titulo-sobrenos {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #101828;
+    letter-spacing: -2%;
+}
+
+.texto-sobrenos {
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+}
+
+.informacoes {
+    display: flex;
+    gap: 64px;
+    padding: 0px 0px 96px;
+    align-items: center;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.subtitulo-informacoes {
+    color: var(--color-title);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.titulo-informacoes {
+    color: var(--color-title2);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudo-informacoes {
+    color: var(--color-text2);
+    font-size: 16px;
+}
+
+.anuncio-vagas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.img-vagas {
+    width: 99%;
+}
+
+.anun-vag-titulo {
+    color: #8E2424;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.title-vagas {
+    color: #101828;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-vagas {
+    margin-top: -20px;
+    margin-bottom: 64px;
+    color: #667085;
+    font-size: 20px;
+}
+
+.vagas-do-bloco {
+    margin: 2em 15em;
+    text-align: left;
+}
+
+.titulo-bloco-de-vaga {
+    color: #101828;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
+
+.dados-da-vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.vaga-title {
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.informacoes-vaga {
+    display: flex;
+}
+
+.tempo-vaga {
+    margin-right: 1.5em;
+}
+
+.container-feedback {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#C3191908;
+    padding: 2em;
+    margin: 5em 5em;
+    border-radius: 15px;
+}
+
+.subtitulo-feedback {
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titulo-feedback {
+    text-align: center;
+}
+
+.nome-julia {
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: -0.5em;
+}
+
+.titulo-julia {
+    color: #667085;
+    font-size: 14px;
+}
+
+.rodape {
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-rodape {
+    font-size: 36px;
+    color: #101828;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -2%;
+}
+
+.subtitulo-rodape {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.form {
+    padding: 12px, 14px, 12px, 16px;
+    gap: 8px;
+    border-radius: 8px;
+    width: 360px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.bot-cadas {
+    background-color: #8E2424;
+    width: 116px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cop-roda {
+    color: #98A2B3;
+    font-size: 16px;
+    line-height: 24px;
+}
